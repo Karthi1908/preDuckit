@@ -121,3 +121,68 @@ This project is more than just a betting platform; it is a strategic showcase of
 *Provides a Blueprint for Future dApps:* This architecture serves as a proven model for other developers looking to build sophisticated, real-world dApps on DuckChain. It demonstrates how to solve common challenges like Oracle integration, task automation, and user experience, encouraging further development on the platform.
 
 By intelligently weaving together the trustless security of DuckChain with the operational and AI prowess of AWS, we are not just building a prediction market. We are creating a scalable, user-centric application that pioneers a new standard for decentralized finance and paves the way for the future of the DuckChain.
+
+### 6. Sustainability & Business Model
+A successful platform requires a long-term vision for financial sustainability and user growth. Our model is designed to be self-sustaining by capturing a small amount of the value it generates, while simultaneously incentivizing user participation to foster a vibrant community.
+
+#### 6.1. Monetization Strategy: The Platform Fee
+The primary revenue stream is a modest, transparent fee levied on the winnings of each prediction market.
+
+*Mechanism:* The claimWinnings function within the PredictionMarket smart contract will be programmed to automatically divert a small percentage (e.g., 1.5% - 3.0%) of the total prize pool to a secure treasury wallet owned by the project. The remaining 97%-98.5% is distributed proportionally among the winners.
+
+*Transparency:* This fee is encoded directly into the smart contract logic, making it publicly auditable and immutable. Users can participate with full confidence, knowing the rules are fair and cannot be changed arbitrarily.
+
+*Use of Funds:* Revenue generated from these fees will be reinvested into the project's growth and maintenance, covering essential costs such as:
+
+&emsp; -AWS infrastructure expenses (Bedrock, Lambda, API Gateway).
+
+&emsp; -Third-party API subscriptions (e.g., premium sports data feeds).
+
+&emsp; -Ongoing development, security audits, and new feature implementation.
+
+&emsp; -Marketing and community-building initiatives.
+
+### 6.2. The DuckChain Incentive Model
+To bootstrap the ecosystem and encourage early adoption, we will implement a user-centric incentive model. This model is designed to reward active and loyal participants.
+
+*Advanced Analytics Agent:* Users could pay a small $DUCK or duckstars fee to ask a specialized Bedrock Agent for historical data, team performance analytics, or head-to-head statistics before placing a bet.
+
+*Automated Betting Strategies:* Power users could subscribe to a service that allows the agent to execute predefined betting strategies on their behalf (within user-set parameters).
+
+*Private Betting:* Premium Users could subscribe for private prediction channels which allow only select group of people to bet and winning are shared only within the group.
+
+*Exclusive Access:* Early access to new betting markets or different sports leagues.
+
+*Governance Rights:* In the future, $DUCK stakers will be give voting rights on platform decisions, such as fee structures or new feature prioritization, fostering a community-owned ecosystem.
+
+This dual approach of a sustainable fee model combined with compelling user incentives ensures the platform's long-term financial health while actively building a loyal and engaged user base on DuckChain.
+
+### 7. Project Roadmap
+We have a clear, phased approach to developing, launching, and scaling the platform. This roadmap is designed to build momentum, gather user feedback, and progressively decentralize key components of the system.
+
+#### Phase 1: Foundation & Launch (Q4 2025)
+*Core Platform Development:* Finalize and audit PredictionMarket smart contracts. Deploy on DuckChain mainnet.
+
+*AWS Backend Implementation:* Configure and deploy all necessary AWS services (Bedrock Agent, Lambda tools, EventBridge, API Gateway, Secrets Manager).
+
+*Telegram Bot Launch:* Release the initial version of the Telegram bot with core functionalities: user onboarding, viewing markets, and clear instructions for placing bets and claiming winnings via a companion dApp.
+
+*Security Audit:* Conduct a comprehensive third-party security audit of all smart contracts and backend infrastructure.
+
+#### Phase 2: Expansion & Feature Growth (H1 2026)
+*Multi-League Support:* Expand the platform beyond the EPL to include other major football leagues (e.g., La Liga, Serie A, UEFA Champions League).
+
+*Enhanced User dApp:* Develop the simple web dApp into a richer user dashboard, showing betting history, performance analytics, and a leaderboard.
+
+*Premium Agent Features:* Launch the first "Agent-as-a-Service" feature, offering users paid access to an analytics agent for pre-match insights.
+
+*Community Building:* Initiate marketing campaigns and community engagement programs to grow the user base.
+
+#### Phase 3: Decentralization & Scaling (H2 2026 & Beyond)
+*Scaling AI Workloads:* As the user base grows, we will optimize the Bedrock Agent's performance. This involves refining the agent's instructions, potentially using smaller, more specialized models for specific tasks, and implementing robust caching strategies in our Lambda tools to reduce redundant API calls. The serverless nature of Lambda ensures that the execution layer scales automatically with demand.
+
+*Exploring Decentralized Oracles:* Begin research and development into integrating a decentralized oracle network (e.g., Chainlink) for reporting match results. This is a critical long-term step to remove the centralized trust placed in our AWS Oracle, making the platform fully trustless end-to-end.
+
+*Governance Model:* Formulate and launch a decentralized governance model where staked token holders can vote on key platform parameters, transitioning the project towards a community-owned DAO (Decentralized Autonomous Organization).
+
+*Multi-Sport Expansion:* Based on community feedback, expand the platform to include other popular sports like Cricket, Basketball, and Tennis.
