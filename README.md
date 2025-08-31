@@ -94,6 +94,8 @@ EventBridge is the project's autonomous clockwork. It triggers the agent to perf
 
 ### 5. The User Experience: The Telegram Bot
 The Telegram bot is the human face of the project. Its goal is to make interacting with a decentralized application as simple as chatting with a friend.
+<img width="818" height="628" alt="image" src="https://github.com/user-attachments/assets/b6030eab-55da-4c56-ae4f-e99de2390461" />
+
 
 **Onboarding:** The user registers their DuckChain wallet address with the bot. This information is stored in a simple DynamoDB table to link their Telegram ID to their on-chain identity.
 
