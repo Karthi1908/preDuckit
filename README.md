@@ -47,6 +47,8 @@ It records the details of the bet (user's address, their prediction, and the amo
 
 ### 4. The Intelligent Off-Chain Engine: AWS Services
 While DuckChain provides trust, AWS provides the brain and the automation that makes the system truly functional and scalable.
+<img width="907" height="554" alt="image" src="https://github.com/user-attachments/assets/d5c79703-9b4b-4fbc-9941-ad43f163a7ee" />
+
 
 #### 4.1. Amazon Bedrock Agent: The Central Orchestrator
 The Bedrock Agent is the revolutionary centerpiece of our AWS architecture. Instead of writing monolithic, complex Lambda functions, we delegate almost all business logic to the agent through plain English instructions.
